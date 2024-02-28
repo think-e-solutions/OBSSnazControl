@@ -124,4 +124,3 @@ If this is the case, check for e.g. browser tabs and desktop shortcuts that matc
 Under certain circumstances, the encoding chosen for recordings in OBS Studio can prevent the start of a recording.
 
 In any case, test recording in OBS (standalone) first, to see whether it's working as expected.
-
