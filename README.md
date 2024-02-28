@@ -68,7 +68,7 @@ All actions to control the state of "Chrono Up" in Snaz are performed by sending
 ### Configuring OBSSnazControl
 OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.config` file.
 
-#### Change regex used to identify Snaz and OBS Studio window in App.config
+#### Change regex used to identify Snaz and OBS Studio window
 To change the regular expressions used to identify Snaz and OBS Studio windows, the following parameters in the App.config file can be changed:
 
 ```xml
@@ -76,7 +76,7 @@ To change the regular expressions used to identify Snaz and OBS Studio windows, 
 <add key="obs.window.title.regex" value="^OBS \d+\.\d+\.\d+\..*$" />
 ```
 
-#### Configure OBS Studio's web socket server settings in App.config
+#### Configure OBS Studio's web socket server settings
 After configuring OBS Studio's websocket API (*Tools -> WebSocket Server Settings*), the OBSSnazControl's related configuration parameters must be set accordingly in App.config:
 
 ```xml
