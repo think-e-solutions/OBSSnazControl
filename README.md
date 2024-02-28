@@ -43,7 +43,7 @@ All actions to control the state of "Chrono Up" in Snaz are performed by sending
 ## Configuration
 
 ### Prerequisites
-- OBS websocket server must be activated
+- OBS Studio's websocket server must be activated
 
 ## Tests to perform
 - Start OBS
@@ -66,7 +66,7 @@ All actions to control the state of "Chrono Up" in Snaz are performed by sending
 - In order to be able to pause and resume recording, make sure all recordings settings do not depend on streaming setting (e.g. encoder etc.)
 
 ### Configuring OBSSnazControl
-OBSSnazControl's configuration parameters are stored in App.config file.
+OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.config` file.
 
 #### Change regex used to identify Snaz and OBS Studio window in App.config
 To change the regular expressions used to identify Snaz and OBS Studio windows, the following parameters in the App.config file can be changed:
