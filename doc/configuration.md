@@ -24,6 +24,9 @@ To verify that OBS Studio is setup correctly for **OBSSnazControl** to work, per
 
 OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.config` file located in the **OBSSnazControl** installation folder.
 
+> [!Important]
+> Files inside the `Program Files` directory of Microsoft Windows can only be modified with administrative privileges. Unfortunately, Notepad - the default app that one would likely use to modify and XML file on a system that does not have any other editors installed - cannot save files to the `Program Files` directory. If you don't have another editor capable of elevating user's permission (e.g. Notepad++), save the modified file to a different location and then move it to the `Progam Files` folder using Windows explorer.
+
 ### Configure OBS Studio's web socket server settings in `OBSSnazControl.exe.config`
 
 After configuring OBS Studio's websocket server (see [Configuring OBS Studio](#Configuring-OBS-Studio)), the OBSSnazControl's related configuration parameters must be set accordingly in `OBSSnazControl.exe.config`:
