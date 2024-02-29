@@ -8,5 +8,5 @@
 
 Please see the follwoing links for details:
 
-- [License](doc/License.md)
+- [License](doc/license.md)
 - [Documentation](doc/OBSSnazControl.md)
