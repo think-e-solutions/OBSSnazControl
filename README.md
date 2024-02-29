@@ -9,4 +9,6 @@
 Please see the follwoing links for details:
 
 - [License](doc/license.md)
+- [Installation](doc/installation.md)
+- [Configuration](doc/configuration.md)
 - [Documentation](doc/OBSSnazControl.md)
