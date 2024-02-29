@@ -11,22 +11,22 @@ To verify that OBS Studio is setup correctly for **OBSSnazControl** to work, per
 5. Resume recording
 6. Stop recording
 
-## Configuring Snaz
-
-- Configure Chrono's (Chrono Up) to generate file with text (timestamp) as required
-
-## Configuring OBS
+## Configuring OBS Studio
 
 - Activate OBS's websocket server using *Tools -> WebSocket Server Settings*
 - In order to be able to pause and resume recording, make sure all recordings settings do not depend on streaming setting (e.g. encoder etc.)
 
+## Configuring Snaz
+
+- Configure Chrono's (Chrono Up) to generate file with text (timestamp) as required
+
 ## Configuring OBSSnazControl
 
-OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.config` file.
+OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.config` file located in the **OBSSnazControl** installation folder.
 
 ### Configure OBS Studio's web socket server settings in `OBSSnazControl.exe.config`
 
-After configuring OBS Studio's websocket server, the OBSSnazControl's related configuration parameters must be set accordingly in `OBSSnazControl.exe.config`:
+After configuring OBS Studio's websocket server (#Configuring OBS), the OBSSnazControl's related configuration parameters must be set accordingly in `OBSSnazControl.exe.config`:
 
 ```xml
 <add key="obs.websocket.ip-address" value="<webSocketServerName>" />
