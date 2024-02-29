@@ -5,9 +5,9 @@
 For detailed information about OBSSnazControl see:
 
 - [License](license.md)
-- [Installation](installation.md)
 - [What OBSSnazControl is for](objective.md)
 - [How OBSnazControl works](howOBSSnazControlWorks.md)
+- [Installation](installation.md)
 - [Configuration](configuraiton.md)
 - [Usage](usage.md)
 - [Known issues/traps](knownIssues.md)
