@@ -4,12 +4,12 @@
 
 To verify that OBS Studio is setup correctly for **OBSSnazControl** to work, perform the following tests:
 
-- Start OBS
-- Prepare scene
-- Start recording
-- Pause recording
-- Resume recording
-- Stop recording
+1. Start OBS
+2. Prepare scene
+3. Start recording
+4. Pause recording
+5. Resume recording
+6. Stop recording
 
 ## Configuring Snaz
 
@@ -23,15 +23,6 @@ To verify that OBS Studio is setup correctly for **OBSSnazControl** to work, per
 ## Configuring OBSSnazControl
 
 OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.config` file.
-
-### Change regex used to identify Snaz and OBS Studio window in `OBSSnazControl.exe.config`
-
-To change the regular expressions used to identify Snaz and OBS Studio windows, the following parameters in the App.config file can be changed:
-
-```xml
-<add key="snaz.window.title.regex" value="^Snaz \d+\.\d+\.\d+.*$" />
-<add key="obs.window.title.regex" value="^OBS \d+\.\d+\.\d+.*$" />
-```
 
 ### Configure OBS Studio's web socket server settings in `OBSSnazControl.exe.config`
 
