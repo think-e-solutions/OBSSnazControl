@@ -14,7 +14,7 @@ To verify that OBS Studio is setup correctly for **OBSSnazControl** to work, per
 ## Configuring OBS Studio
 
 - Activate OBS's websocket server using *Tools -> WebSocket Server Settings*
-- In order to be able to pause and resume recording, make sure all recordings settings do not depend on streaming setting (e.g. encoder etc.)
+- In order to be able to pause and resume recording, make sure all recordings' settings do not depend on streaming setting (e.g. encoder etc.)
 
 ## Configuring Snaz
 
