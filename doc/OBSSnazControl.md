@@ -8,7 +8,7 @@ For detailed information about OBSSnazControl see:
 - [What OBSSnazControl is for](objective.md)
 - [How OBSnazControl works](howOBSSnazControlWorks.md)
 - [Installation](installation.md)
-- [Configuration](configuraiton.md)
+- [Configuration](configuration.md)
 - [Usage](usage.md)
 - [Known issues/traps](knownIssues.md)
 
