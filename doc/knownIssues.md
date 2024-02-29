@@ -1,6 +1,6 @@
 # Know issues/traps
 
-## No OBS Studio or Snaz "instance" is found although both programs are running
+## No OBS Studio or Snaz "instance" found although both programs are running
 
 If **OBSSnazControl** does not find the OBS Studio and Snaz window "instances", one reason can be that the regular expressions used for matching the applications' window titles are incorrect and do thererfore not match the window titles. Another cause maybe that OBS Studio or Snaz changed the title that's being displayed in newer versions.
 
