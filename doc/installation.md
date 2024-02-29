@@ -4,9 +4,9 @@
 
 Using your brower navigate to:
 
-- [Download latest version of OBSSnazControl](https://github.com/think-e-solutions/OBSSnazControl/releases/latest)
+- [Download latest version of OBSSnazControl](https://github.com/think-e-solutions/OBSSnazControl/releases/latest/OBSSnazControl.msi)
 
-and download the MSI file (`OBSSnazControl.msi`).
+and safe the downloaded file to a location of your choice.
 
 If you wish to install an earlier version, you can do so by navigating to:
 
