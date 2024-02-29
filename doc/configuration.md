@@ -26,7 +26,7 @@ OBSSnazControl's configuration parameters are stored in `OBSSnazControl.exe.conf
 
 ### Configure OBS Studio's web socket server settings in `OBSSnazControl.exe.config`
 
-After configuring OBS Studio's websocket server (#Configuring OBS), the OBSSnazControl's related configuration parameters must be set accordingly in `OBSSnazControl.exe.config`:
+After configuring OBS Studio's websocket server (see [Configuring OBS Studio](#Configuring-OBS-Studio)), the OBSSnazControl's related configuration parameters must be set accordingly in `OBSSnazControl.exe.config`:
 
 ```xml
 <add key="obs.websocket.ip-address" value="<webSocketServerName>" />
